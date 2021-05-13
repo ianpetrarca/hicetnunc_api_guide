@@ -1,2 +1,1 @@
-# hicetnunc
-Resources for developing hicetnunc  experiences
+### hicetnunc.xyz resources
