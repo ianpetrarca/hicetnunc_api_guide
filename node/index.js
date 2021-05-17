@@ -57,6 +57,7 @@ async function getTokenInfo(id){
         let base_url = 'https://api.better-call.dev/v1/tokens/mainnet/metadata?token_id'
         const res = await axios.get(base_url + id + '')
         .then((response) => {
+          console.log(response)
           return response
         })
     } catch (error) {
@@ -65,8 +66,6 @@ async function getTokenInfo(id){
   
 }
 
-getUserCollection('tz1LobSdhfUqYpMojXWHQLJPhFLEzUEd9JAn')
+// getUserCollection('tz1LobSdhfUqYpMojXWHQLJPhFLEzUEd9JAn')
 
-// getTokenInfo(36899).then((info) => {
-//   console.log(info)
-// })
+// getTokenInfo(36899)
