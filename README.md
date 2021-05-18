@@ -7,7 +7,7 @@
 > A guide for using various Tezos APIs to build web experiences and tools for hicetnunc.xyz.
 
 #### Table of Contents  
-- [Introduction](##hicetnunc-api-guide)  
+- [Introduction](#hicetnunc-api-guide)  
 - [General Information](#what-is-hic-et-nunc)  
 - [Tezos APIs](#what-is-hic-et-nunc)  
 - [Node.js Examples](/node)  
