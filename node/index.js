@@ -40,8 +40,6 @@ async function getTokenInfo(id){
 //Tezos Address
 async function getProfile(user){
 
-  let profile = {}
-
   //Get Collection
   getUserInfo(user).then((response) => {
       let collection = new Array()
@@ -60,8 +58,11 @@ async function getProfile(user){
   }); 
 
   //Get Creations
-  getCreations(user,0).then((data) => {console.log("creations" + data)})
-  
+  getCreations(user,0).then((data) => {
+    console.log("creations" + data)
+    profile.creations = data
+  })
+
 }
 
 //Get Single HeN Object
