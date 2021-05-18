@@ -1,4 +1,4 @@
-<p style="margin-top:20px" align="center">
+<p style="margin-top:50px" align="center">
 <img src="https://www.hicetnunc.xyz/og-image.jpg" alt="alt text" width="400">
 </p>
 
