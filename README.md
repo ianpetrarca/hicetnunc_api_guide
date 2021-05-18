@@ -18,13 +18,16 @@
 - [Better Call Dev API](https://better-call.dev/)
 - [TZKT API Docs](https://api.tzkt.io/)
 
-### Table of Contents  
+#### Table of Contents  
 - [General Information](#what-is-hic-et-nunc)  
 - [Tezos APIs](#what-is-hic-et-nunc)  
 - [Node.js Examples](/node)  
 - [Website Example](/web)  
 
-## What is Hic Et Nunc?
+
+## General Information
+
+### What is Hic Et Nunc?
 
 <img style="margin-left:auto;margin-right:auto" src="https://user-images.githubusercontent.com/1003196/118697952-db4f6100-b7dd-11eb-8dd1-d8494295d749.png" alt="alt text" width="700">
 
