@@ -1,23 +1,23 @@
 # Hicetnunc API Guide
 > A guide for using various APIs to query and parse hicetnunc.xyz OBJKT and tz data
 
-## General Info
+### General Info
 This project was created as a guide to query and parse hicetnunc OBJKT and tZ data from various publicly available APIs. Using these methods you can build auxiliary experiences for your hicetnunc creations on a website or Node.js server.
 
-## Roadmap
+### Roadmap
 
 1)  ~~Release initial Better Call Dev Nodejs examples and Github Readme~~
 2)  Add simple html web demo that populates a table with message respose data
 3)  Implement rate-limiting to outgoing messages using Bottleneck library
 4)  Add TZKT.IO API and compare against Better Call Dev for performance
 
-## Table of Contents  
+### Table of Contents  
 - [What is Hicetnunc?](#what-is-hic-et-nunc)  
 - [Project Setup](#project-setup)  
 - [Node.js Examples](/node)  
 - [Website Example](/web)  
 
-# What is Hic Et Nunc?
+## What is Hic Et Nunc?
 
 <img style="margin-left:auto;margin-right:auto" src="https://user-images.githubusercontent.com/1003196/118697952-db4f6100-b7dd-11eb-8dd1-d8494295d749.png" alt="alt text" width="700">
 
