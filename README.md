@@ -4,6 +4,13 @@
 ## General Info
 This project was created as a guide to query and parse hicetnunc OBJKT data rom the Better Call Dev REST API. Using these methods you can build auxiliary experiences for your hicetnunc creations on a website or Node.js server. This code repo includes two types of examples: Node.js server examples and a full static website example using Webpack.
 
+## Roadmap
+
+1)  ~~Release Better Call Dev Node / Web Examples using Axios library~~
+2)  Add more Rate limiting features (look in Bottleneck library)
+3)  Add TZKT.IO API and compare against Better Call Dev for performance
+4)  Add simple html web demo that populates a table with message respose data
+
 ## Table of Contents  
 - [What is Hicetnunc?](#what-is-hic-et-nunc)  
 - [Project Setup](#project-setup)  
