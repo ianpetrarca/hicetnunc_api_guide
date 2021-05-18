@@ -47,7 +47,7 @@ Hicetnunc is a open source movement that created the Tezos NFT specification cal
 
 ___
 
-## Installation
+# Installation
 This project uses the latest versions of Node.js and NPM. You can install those on your computer here: https://nodejs.org/
 
 Enter project directory
