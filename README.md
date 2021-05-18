@@ -10,8 +10,7 @@
 - [Introduction](#hicetnunc-api-guide)  
 - [General Information](#general-information)  
 - [Tezos APIs](#tezos-api)  
-- [Node.js Examples](/node)  
-- [Website Example](/web)  
+- [Code Examples](#code-examples)  
 
 #### Roadmap
 
@@ -69,7 +68,7 @@ In order to get metadata on a Tezos Wallet Address or hic et nunc OBJKT ID you m
 - [Better Call Dev API](https://better-call.dev/)
 - [Tezos Block Explorer](http://tzkt.io/)
 
-# Tutorials and Code Examples
+# Code Examples
 View more in depth documentation inside of each example's folder:
  
 - [Better Call Dev Node.js Examples](/node)  
