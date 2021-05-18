@@ -6,10 +6,10 @@ This project was created as a guide to query and parse hicetnunc OBJKT and tZ da
 
 ## Roadmap
 
-1)  ~~Release Better Call Dev Node / Web Examples using Axios library~~
-2)  Add more Rate limiting features (look in Bottleneck library)
-3)  Add TZKT.IO API and compare against Better Call Dev for performance
-4)  Add simple html web demo that populates a table with message respose data
+1)  ~~Release initial Better Call Dev Nodejs examples and Github Readme~~
+2)  Add simple html web demo that populates a table with message respose data
+3)  Add more Rate limiting features (look in Bottleneck library)
+4)  Add TZKT.IO API and compare against Better Call Dev for performance
 
 ## Table of Contents  
 - [What is Hicetnunc?](#what-is-hic-et-nunc)  
