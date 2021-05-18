@@ -59,6 +59,27 @@ async function getCreations(id,offset){
 ```
 
 
+### 4) Get OBJKTs collected from a Tezos Address - [Get Account Balances- BCD API Docs ](https://better-call.dev/docs#operation/get-account-token-balances)
+> Returns OBJKTs collected by Tezos Address. Paginated API response. Function includes input to offset results.
+
+API Endpoint: https://api.better-call.dev/v1/account/mainnet/{address}//token_balances
+
+Example:
+
+```ruby
+async function getCollection(user,offset) { 
+  try {
+      const res = await axios.get('https://api.better-call.dev/v1/account/mainnet/' + user + '/token_balances?size=10&offset=' + offset)
+      return res.data
+  } catch (error) {
+       return null
+  }
+}
+
+```
+
+
+
 
 
 
