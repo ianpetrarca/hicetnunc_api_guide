@@ -47,7 +47,7 @@ Hicetnunc is a open source movement that created the Tezos NFT specification cal
 
 
 ## Usage and Code Examples
-How does use and run these code examples?
+> How do I use and run these code examples?
 
 ## Room for Improvement
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
