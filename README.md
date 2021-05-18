@@ -1,4 +1,4 @@
-### hicetnunc.xyz resources
+##### HIC
 
 - Hicetnunc Node.js API Examples
 
