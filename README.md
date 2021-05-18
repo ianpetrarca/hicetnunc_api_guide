@@ -1,5 +1,5 @@
 # Hicetnunc API Guide
-> A guide for using various APIs to query and parse hicetnunc.xyz OBJKT and tz data
+> A guide for using various Tezos APIs to build websites and tools for hicetnunc.xyz
 
 ## General Info
 This project was created as a guide to query and parse hicetnunc OBJKT and tZ data from various publicly available APIs. Using these methods you can build auxiliary experiences for your hicetnunc creations on a website or Node.js server.
