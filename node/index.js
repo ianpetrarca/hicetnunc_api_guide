@@ -1,4 +1,3 @@
-
 let axios = require('axios') //JS LIBRARY FOR REST API FUNCTIONS
 
 async function getCollection(user,offset) { //GET A USERS OBJKT COLLECTION IN SETS OF TEN
@@ -66,7 +65,7 @@ async function getProfile(user){
 }
 
 //Get Single HeN Object
-async function getObjkt(id){
+async function getObjkts(id){
   let queue = new Array()
   //Multiple Objects
   if(typeof id == 'object'){
@@ -84,4 +83,8 @@ async function getObjkt(id){
   }
 }
 
+//Fetch Objkt Info in an inputted Array
+getObjkts([36899,79321,78993])
+
+//Get all collections and the last ten creations from a Users Tezos Address
 getProfile('tz1dy6DgvAjeBZpfRE3NoL84BRm4tupyKfFf')
