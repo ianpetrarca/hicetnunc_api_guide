@@ -88,11 +88,5 @@ cd node
 npm install
 ```
 
-Open up the index.js file: 
-
-
-
-# Web Examples
-
 ## Contact
 Created by [@ianpetrarca](https://www.twitter.com/ianpetrarca) - tz1LobSdhfUqYpMojXWHQLJPhFLEzUEd9JAn
