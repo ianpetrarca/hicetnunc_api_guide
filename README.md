@@ -9,7 +9,7 @@
 #### Table of Contents  
 - [Introduction](#hicetnunc-api-guide)  
 - [General Information](#general-information)  
-- [Tezos APIs](#what-is-hic-et-nunc)  
+- [Tezos APIs](#tezos-api)  
 - [Node.js Examples](/node)  
 - [Website Example](/web)  
 
@@ -62,38 +62,7 @@ An NFT stands for 'non-fungible-token' and was originally created as one of many
 
 Hicetnunc is a open source movement that created the Tezos NFT specification called an 'OBJKT.' Unlike other NFT platformns, hicetnunc uses Tezos, which is a proof-of-stake blockchain with significantly less fees and environmental impact caused by mining. Hicetnunc.xyz allows you to create, collect and interact with the Tezos blockchain.
 
-___
-
-# Project Setup
-This project uses the latest versions of Node.js and NPM. You can install those on your computer here: https://nodejs.org/
-
-Enter project directory, choose which example you want to run and install dependencies
-```ruby
-cd hicetnunc_api_guide
-cd node
-npm install
-```
-
-Running Node.js Example:
-
-```ruby
-cd node
-node index.js
-```
-
-Running Web Example on Localhost:
-
-```ruby
-cd web
-npm run dev
-```
-
-Building Web Example for Deploy:
-
-```ruby
-cd web
-npm run production
-```
+## Tezos API
 
 # Tutorials and Code Examples
 View more in depth documentation inside of each example's folder:
