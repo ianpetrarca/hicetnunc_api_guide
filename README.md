@@ -44,19 +44,19 @@ In order to fully appreciate hic et nunc, basic knowledge of decentralized syste
 
 #### Decentralized System
 
-A decentralized system is one where single entity does not have full control over the decision making, additions and maitenance of the system. A decentralized system is inherently communal, serving groups of interconnected relevant parties that want to transact with trust. In many cases decentralization is impossible to reach, a best attempt.
+A decentralized system is one where a single entity does not have full control over the decision making, additions and upgrades of the system. A decentralized system is inherently communal, serving groups of interconnected relevant parties that want to transact with trust. In many cases decentralization is impossible to reach, a best attempt.
 
 [Explainer Video on Decentralization](https://youtu.be/SrA7XTDCtok)
 
 #### Blockchain 
 
-A blockchain is a database that built specifically to run on a decentralized p2p network and requires a set of 'checks and balances' to read, write and interact with it. There are many different types of blockchains, some of them focus on financial data like Bitcoin others like Tezos and IPFS play a different role in the decentralized ecosystem and contain files, application data, etc. 
+A blockchain is a database that is built specifically to run on a decentralized p2p network and requires a set of 'checks and balances' to read, write and interact with it. There are many different types of blockchains, some of them focus on financial data like Bitcoin others like Tezos and IPFS play a different role in the decentralized ecosystem and contain files and application data. 
 
-Depending on the implementation, a blockchain can be both decentralized or centralized. Decentralization lends itself to certain ideas and for now the most common implementation of a decentralized blockchain is a cryptocurrency.
+Depending on the implementation, a blockchain can be either decentralized or centralized. Decentralization lends itself to certain ideas and for now the most common implementation of a decentralized blockchain is a cryptocurrency.
 
 #### Cryptocurrency 
 
-A cryptocurrency is a digital medium to transact value on network not owned by a single entity or nation-state. If you are curious as to why that might be needed, you might be in the wrong place. Please refer to the [Bitcoin White Paper](https://bitcoin.org/bitcoin.pdf) and Dr. Daniel Kim's [video](https://www.youtube.com/watch?v=aC9Uu5BUxII) on monetary policy, inflation, central banking, encryption, Bitcoin and Monero.
+A cryptocurrency is a digital medium to transact value on network not owned by a single entity or nation-state. Please refer to the [Bitcoin White Paper](https://bitcoin.org/bitcoin.pdf) and Dr. Daniel Kim's [video](https://www.youtube.com/watch?v=aC9Uu5BUxII) on monetary policy, inflation, central banking, encryption, Bitcoin and Monero.
 
 #### NFT
 
@@ -64,7 +64,7 @@ An NFT stands for 'non-fungible-token' and was originally created as one of many
 
 # Tezos API
 
-In order to get metadata on a Tezos Wallet Address or hic et nunc OBJKT ID you must interact with a Tezos blockchain explorer API. This guide focuses on the two most popular Tezos Blockchain Explorer APIS:
+In order to get metadata on a Tezos Wallet Address or hic et nunc OBJKT ID, you must interact with a Tezos blockchain explorer API. This guide focuses on the two most popular Tezos Blockchain Explorer APIS:
 
 - [Better Call Dev API](https://better-call.dev/)
 - [Tezos Block Explorer](http://tzkt.io/)
@@ -73,7 +73,7 @@ In order to get metadata on a Tezos Wallet Address or hic et nunc OBJKT ID you m
 View more in depth documentation inside of each example's folder:
  
 - [Better Call Dev Node.js Examples](/node-bcd)  
-- [Website Example](/web)  
+- [Metadata Generator Example](/web)  
 - ~~[TZKT Node.js Examples]~~ (coming soon)
 
 # Contact
