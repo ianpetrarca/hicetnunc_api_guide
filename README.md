@@ -11,7 +11,6 @@
 ### Table of Contents  
 - [General Information](#what-is-hic-et-nunc)  
 - [Tezos APIs](#what-is-hic-et-nunc)  
-- [Code Examples](#project-setup)  
 - [Node.js Examples](/node)  
 - [Website Example](/web)  
 
