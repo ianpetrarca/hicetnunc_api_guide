@@ -1,7 +1,8 @@
 # Hicetnunc / Better Call Dev API Guide
 > A guide for using the Better Call Dev API to query and parse hic et nunc data.
 
-```async function getTokenInfo(id){
+```
+async function getTokenInfo(id){
     try {
         const res = await axios.get('https://api.better-call.dev/v1/tokens/mainnet/metadata?token_id=' + id.toString())
         return res.data[0]
