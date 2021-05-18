@@ -12,7 +12,7 @@ Here are some of the different requests and endpoints that you can interact with
 
 API Endpoint: https://api.better-call.dev/v1/account/mainnet/{address}
 
-Code Snippet using Axios and Async/Await
+Example:
 
 ```ruby
 async function getUserInfo(user) {
