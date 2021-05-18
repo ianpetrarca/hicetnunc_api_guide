@@ -3,7 +3,7 @@
 
 
 ## General Info
-This project was created to give guidance and code examples on how to query and parse hicetnunc OBJKT from the Better Call Dev Tezos API.
+This project was created to showcase how to query and parse hicetnunc OBJKT from the Better Call Dev Tezos API. Using these methods you can build auxilary experiences for your hicetnunc creations on a website or Node.js server.
 
 ### REST API
 
