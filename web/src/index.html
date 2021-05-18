@@ -1,94 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Hicetnunc API</title>
+    <title>Hicetnunc API Guide</title>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-
   </head>
 
   <body>
 
     <section class="text-gray-600 body-font relative">
       <!-- Container -->
+
       <div class="container px-5 py-24 mx-auto">
+
         <!-- Logo and Site Title -->
         <div class="flex flex-col text-center w-full mb-12">
-          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Hicetnunc API Examples
+          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Hicetnunc Metadata Generator
             <br>
             <img style="display:inline" height="32" width="32" src="https://www.hicetnunc.xyz/favicon-32x32.png">
           </h1>
-
-          <div class="mx-40">
-            <label for="message" class="leading-7 text-sm text-gray-600">API Response</label>
-            <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
-          </div>
-                 
         </div>
 
-        <div class="lg:w-1/2 md:w-2/3 mx-auto"> 
+        <!-- Enter Link Section -->
+        <div class="mx-auto"> 
+          
+          <!-- Better Call Dev Text Logo -->
           <div class="flex items-center mb-3 mt-8">
             <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
-            
               <img style="display:inline" height="32" width="32" src="https://better-call.dev/img/favicon.ico">
             </div>
             <h2 class="text-gray-900 text-lg title-font font-medium">Better Call Dev API</h2>
           </div>
 
+          <!-- Text Input and API Response -->
           <div class="flex flex-wrap">   
+            <!-- Input for HeN Url -->
             <div class="p-2 w-3/5">
-          
                 <label for="name" class="leading-7 text-sm text-gray-600">Enter Hicetnunc URL or OBJKT ID </label>
-                <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">  
-          
+                <input id="hen_link_input" type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">  
             </div>
+            <!-- Button for sending API request message -->
             <div class="w-2/5">
-         
-                <button class="mt-8 flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Get OBJKT</button>
-
+                <button id="get_ipfs_btn" class="mt-8 flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Get OBJKT IPFS Link</button>
             </div>
-
+            <!-- IPFS URL Output Text  -->
+            <p id="ipfs_output" class="text-left text-gray-900 p-6 h-12 w-full"></p>
+            <!-- Objkt ID Output Text  -->
+            <p id="id_output" class="text-gray-900 p-6 h-12 w-full"></p>
+            <!-- Creator tZ Wallet Output Text  -->
+            <p id="creator_output" class="text-gray-900 p-6 h-12 w-full"></p>
+            <!-- Objkt Thumbnail URL Output Text  -->
+            <p id="thumb_output" class="text-gray-900 p-6 h-12 w-full"></p>
+            <!-- Description Output Text  -->
+            <p id="description_output" class="text-gray-900 p-6 h-12 w-full"></p>
 
           </div>
-        
-
-          <div class="flex flex-wrap">   
-            <div class="p-2 w-3/5">
-          
-                <label for="name" class="leading-7 text-sm text-gray-600">Enter Hicetnunc URL or OBJKT ID </label>
-                <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">  
-          
-            </div>
-            <div class="w-2/5">
-         
-                <button class="mt-8 flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Get Collection</button>
-
-            </div>
-
-
-          </div>
-        
-          <div class="flex flex-wrap">
-            <div class="p-2 w-3/5">
-          
-                <label for="name" class="leading-7 text-sm text-gray-600">Enter Tezos Address </label>
-                <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">  
-          
-            </div>
-            <div class="w-2/5">
-         
-                <button class="mt-8 flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Get Creations</button>
-
-            </div>
-
-
-          </div>
-        
-
+      
         </div>
 
-  
-       
       </div>
+
     </section>
+
   </body>
 </html>
