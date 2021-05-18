@@ -25,6 +25,7 @@
 - [TZKT API Docs](https://api.tzkt.io/)
 
 # General Information
+> An overview of hicetnunc.xyz, decentralization, blockchain and NFTs.
 
 <img style="margin-left:auto;margin-right:auto" src="https://user-images.githubusercontent.com/1003196/118697952-db4f6100-b7dd-11eb-8dd1-d8494295d749.png" alt="alt text" width="700">
 
