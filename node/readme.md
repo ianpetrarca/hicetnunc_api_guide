@@ -2,4 +2,4 @@
 > A guide for using the Better Call Dev API to query and parse hic et nunc data.
 
 ## Node Examples
-This folder has a Node.js example that utilize the Axios [Axios](https://www.npmjs.com/package/axios) library for sending REST API functions.
+This folder has a Node.js example that utilize the Axios [Axios](https://www.npmjs.com/package/axios) library for sending REST API messages to the [Better Call Dev](http://better-call.dev/docs) 
