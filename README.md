@@ -85,15 +85,11 @@ cd web
 npm run production
 ```
 
-# Node.js Examples
-Node.js is a tool for building server-side code using javascript. We are going to use Node.js as a way to query REST APIs and parse through the returned data. These examples can be mapped and integrated into any web project or framework that uses Node.js. We are using the axios NPM library to facilitate the REST API functions.
-
-Move into node.js directory and install dependencies 
-
-```ruby
-cd node
-npm install
-```
+# Tutorials and Code Examples
+View more in depth documentation inside of each example's folder:
+ 
+- [Node.js Examples](/node)  
+- [Website Example](/web)  
 
 ## Contact
 Created by [@ianpetrarca](https://www.twitter.com/ianpetrarca) - tz1LobSdhfUqYpMojXWHQLJPhFLEzUEd9JAn
