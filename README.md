@@ -8,6 +8,16 @@
 3)  Implement rate-limiting to outgoing messages using Bottleneck library
 4)  Add TZKT.IO API and compare against Better Call Dev for performance
 
+#### Hic et nunc Resources
+- [Hic et nunc Tools](hicetnunc.tools/)
+- [Hic et nunc Discord](https://discord.gg/g7VQt5pJ)
+- [Hic et nunc Github](https://github.com/hicetnunc2000/)
+
+#### Tezos Resources
+- [Tezos Block Explorer](http://tzkt.io/)
+- [Better Call Dev API](https://better-call.dev/)
+- [TZKT API Docs](https://api.tzkt.io/)
+
 ### Table of Contents  
 - [General Information](#what-is-hic-et-nunc)  
 - [Tezos APIs](#what-is-hic-et-nunc)  
@@ -19,16 +29,6 @@
 <img style="margin-left:auto;margin-right:auto" src="https://user-images.githubusercontent.com/1003196/118697952-db4f6100-b7dd-11eb-8dd1-d8494295d749.png" alt="alt text" width="700">
 
 [Hic et nunc](hicetnunc.xyz/) is a decentralized NFT marketplace built on the Tezos blockchain. It allows users to create, sell and interact with Tezos NFT's called OBJKTS that can hold a single artwork, 3d model, image, video, etc. When a user uploads their content to hic et nunc, the actual asset file is uploaded to [IPFS](https://ipfs.io/), a decentralized storage network. The user inputted metadata is uploaded and stored in the Tezos blockchain. 
-
-#### Hic et nunc Resources
-- [Hic et nunc Tools](hicetnunc.tools/)
-- [Hic et nunc Discord](https://discord.gg/g7VQt5pJ)
-- [Hic et nunc Github](https://github.com/hicetnunc2000/)
-
-#### Tezos Resources
-- [Tezos Block Explorer](http://tzkt.io/)
-- [Better Call Dev API](https://better-call.dev/)
-- [TZKT API Docs](https://api.tzkt.io/)
 
 ### Decentralized System
 
