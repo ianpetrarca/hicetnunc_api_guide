@@ -16,7 +16,7 @@
 #### Roadmap
 
 1)  ~~Release initial Better Call Dev Nodejs examples and Github Readme~~
-2)  Add simple html web demo that populates a table with message respose data
+2)  ~~Add simple html web demo that populates page with message respose data~~
 3)  Implement rate-limiting to outgoing messages using Bottleneck library
 4)  Add TZKT.IO API and compare against Better Call Dev for performance
 
