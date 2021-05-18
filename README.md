@@ -13,13 +13,27 @@
 <!-- * [License](#license) -->
 
 
-## General Information from https://www.hicetnunc.xyz/about 
+## What is Hic Et Nunc?
 
-hic et nunc
-The present decentralized application allows its users to manage decentralized digital assets, serving as a public smart contract infrastructure on Tezos Blockchain.
+Hic et nunc is a decentralized NFT marketplace built on the Tezos blockchain. That sounds complicated let's unpack:
 
-IPFS OBJKTs can be minted and traded by permissionless means. such experiment was designed intending to imagine alternative crypto economies.
+- Decentralized System
 
+A decentralized system is one where one entity does not have full control over the decision making, additions and maitenance of the system. A decentralized system is inherently communal, serving groups of interconnected relevant parties that want to transact with trust. In many cases decentralization is impossible to reach, a best attempt at a utopian life. 
+
+- Blockchain 
+
+A blockchain is a database that is built specifically to run on decentralized p2p networks and requires a set of 'checks and balances' to read, write and interact with. There are many different types of blockchains, some of them store financial data like Bitcoin. Others like Ethereum, Tezos and IPFS store files, application data, etc. 
+
+Depending on the implementation, a blockchain can be both decentralized or centralized. Decentralization lends itself to certain ideas and for now the most common implementation of a decentralized blockchain is a cryptocurrency.
+
+- Cryptocurrency 
+
+A cryptocurrency is a means to transact value on a digital platform not owned by a single nation state or government entity. There are various reasons why that is needed that people much smarter than me can talk to you about: https://www.youtube.com/watch?v=aC9Uu5BUxII
+
+- NFT
+
+An NFT stands for 'non-fungible-token' and was originally created as one of many smart contract types to use on the Ethereum network. Unlike a cryptocurrency, an NFT is a mathmatically verifiable receipt that associates you to files, in-game goods, artwork, etc.
 
 ## Examples
 
