@@ -54,9 +54,7 @@ A decentralized system is one where a single entity does not have full control o
 
 #### Blockchain 
 
-A blockchain is a database that is built specifically to run on a decentralized p2p network and requires a set of 'checks and balances' to read, write and interact with it. There are many different types of blockchains, some of them focus on financial data like Bitcoin others like Tezos and IPFS play a different role in the decentralized ecosystem and contain files and application data. 
-
-Depending on the implementation, a blockchain can be either decentralized or centralized. Decentralization lends itself to certain ideas and for now the most common implementation of a decentralized blockchain is a cryptocurrency.
+A blockchain is a database that is built specifically to run on a decentralized p2p network and requires a set of 'checks and balances' to read, write and interact with it. Depending on the implementation, a blockchain can be either decentralized or centralized. Decentralization lends itself to certain ideas and for now the most common implementation of a decentralized blockchain is a cryptocurrency. 
 
 #### Cryptocurrency 
 
