@@ -1,10 +1,9 @@
-# Hicetnunc API Guide
-
 <p align="center">
-<img src="https://www.hicetnunc.xyz/og-image.jpg" alt="alt text" width="700">
+<img src="https://www.hicetnunc.xyz/og-image.jpg" alt="alt text" width="400">
 </p>
 
 
+# Hicetnunc API Guide
 > A guide for using various Tezos APIs to build web experiences and tools for hicetnunc.xyz.
 
 #### Table of Contents  
