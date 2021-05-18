@@ -2,7 +2,7 @@
 > A guide for using the Better Call Dev API to query and parse hic et nunc data.
 
 ## Table of Contents
-* [General Info](#general-information)
+* [General Info](#What is Hic Et Nunc?)
 * [Examples](#examples)
 * [Setup](#setup)
 * [Usage](#usage)
