@@ -2,7 +2,7 @@
 > A guide for using various APIs to query and parse hicetnunc.xyz OBJKT and tz data
 
 ## General Info
-This project was created as a guide to query and parse hicetnunc OBJKT data rom the Better Call Dev REST API. Using these methods you can build auxiliary experiences for your hicetnunc creations on a website or Node.js server. This code repo includes two types of examples: Node.js server examples and a full static website example using Webpack.
+This project was created as a guide to query and parse hicetnunc OBJKT and tZ data from various publicly available APIs. Using these methods you can build auxiliary experiences for your hicetnunc creations on a website or Node.js server. This code repo includes three examples: a Better Call Dev Node.js examples, a TZTK.IO Node.js and a website implementation.
 
 ## Roadmap
 
@@ -16,20 +16,6 @@ This project was created as a guide to query and parse hicetnunc OBJKT data rom 
 - [Project Setup](#project-setup)  
 - [Node.js Examples](/node)  
 - [Website Example](/web)  
-
-### REST API
-A REST API is a staple of web-development and is a way for users to uniformly write and read data from an external server. In order to build experiences on top of Hicetnunc, we need to get data on a user's Tezos address or a from a unique OBJKT ID. We are using the Better Call Dev REST API to query and filter the relevant data that we need.
-
-```ruby
-async function getTokenInfo(id){
-    try {
-        const res = await axios.get('https://api.better-call.dev/v1/tokens/mainnet/metadata?token_id=' + id.toString())
-        return res.data[0]
-    } catch (error) {
-        return null
-    }
-}
-```
 
 # What is Hic Et Nunc?
 
