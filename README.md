@@ -9,8 +9,9 @@
 4)  Add TZKT.IO API and compare against Better Call Dev for performance
 
 ### Table of Contents  
-- [What is Hicetnunc?](#what-is-hic-et-nunc)  
-- [Project Setup](#project-setup)  
+- [General Information](#what-is-hic-et-nunc)  
+- [Tezos APIs](#what-is-hic-et-nunc)  
+- [Code Examples](#project-setup)  
 - [Node.js Examples](/node)  
 - [Website Example](/web)  
 
