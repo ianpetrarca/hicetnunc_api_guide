@@ -1,7 +1,5 @@
 # Hicetnunc / Better Call Dev API Guide
-A guide for using the Better Call Dev API to query and parse hic et nunc data.
-
-##
+## A guide for using the Better Call Dev API to query and parse hic et nunc data.
 Created by [@ianpetrarca](https://www.twitter.com/ianpetrarca) - tz1LobSdhfUqYpMojXWHQLJPhFLEzUEd9JAn
 
 ## General Info
