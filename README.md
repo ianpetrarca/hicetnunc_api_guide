@@ -33,7 +33,7 @@ async function getTokenInfo(id){
 
 # What is Hic Et Nunc?
 
-![image](https://user-images.githubusercontent.com/1003196/118697952-db4f6100-b7dd-11eb-8dd1-d8494295d749.png | width=500)
+![image](https://user-images.githubusercontent.com/1003196/118697952-db4f6100-b7dd-11eb-8dd1-d8494295d749.png)
 
 
 Hic et nunc is a decentralized NFT marketplace built on the Tezos blockchain. That sounds complicated let's unpack:
