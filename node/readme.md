@@ -22,3 +22,21 @@ async function getUserInfo(user) {
 }
 ```
 
+### 2) Get OBJKT Metadata from a Tezos Address - [Get Account Info - BCD API Docs ](https://better-call.dev/docs#operation/list-token-metadata)
+> Returns Total Number of OBJKTs collected
+
+API Endpoint: https://api.better-call.dev/v1/tokens/mainnet/metadata?token_id=
+
+Example:
+
+```ruby
+async function getTokenInfo(id){
+    try {
+        const res = await axios.get('https://api.better-call.dev/v1/tokens/mainnet/metadata?token_id=' + id.toString())
+        return res.data[0]
+    } catch (error) {
+        return null
+    }
+}
+```
+
