@@ -56,6 +56,12 @@ Enter project directory
 cd hicetnunc_api_guide
 ```
 
+Choose which example you want to run (Node.js example shown below)
+
+```ruby
+cd node
+```
+
 
 ## Usage and Code Examples
 After downloading or cloning this repository, please run the following commands to get started:
