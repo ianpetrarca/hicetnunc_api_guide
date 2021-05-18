@@ -1,5 +1,8 @@
 # Hicetnunc / Better Call Dev API Guide
-> A guide for using the Better Call Dev API to query and parse hic et nunc data.
+A guide for using the Better Call Dev API to query and parse hic et nunc data.
+
+##
+Created by [@ianpetrarca](https://www.twitter.com/ianpetrarca) - tz1LobSdhfUqYpMojXWHQLJPhFLEzUEd9JAn
 
 ## General Info
 This project was created as a guide to query and parse hicetnunc OBJKT data rom the Better Call Dev REST API. Using these methods you can build auxilary experiences for your hicetnunc creations on a website or Node.js server. This code repo includes two types of examples: Node.js server examples and a full static website example using Webpack.
@@ -47,7 +50,7 @@ Hicetnunc is a open source movement that created the Tezos NFT specification cal
 
 ___
 
-# Installation
+# Project Setup
 This project uses the latest versions of Node.js and NPM. You can install those on your computer here: https://nodejs.org/
 
 Enter project directory, choose which example you want to run and install dependencies
