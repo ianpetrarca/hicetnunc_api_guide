@@ -5,4 +5,20 @@
 Metadata Generator (Web Example): [https://hen-metadata.web.app/](https://hen-metadata.web.app/)
 
 # Metadata Generator - hic et nunc web example
-This is an example uses a modern es6, webpack and npm based development workflow to host and compile a static website that can interface with the Better Call Dev API.
+Modern es6, webpack and npm based development workflow to host and compile a static website that can interface with the Better Call Dev API.
+
+Install and start the local web server:
+
+```ruby
+cd web
+npm run install
+npm run dev
+```
+
+Compile a production build for deploy:
+
+```ruby
+cd web
+npm run production
+```
+
