@@ -53,20 +53,29 @@ This project uses the latest versions of Node.js and NPM. You can install those 
 Enter project directory, choose which example you want to run and install dependencies
 ```ruby
 cd hicetnunc_api_guide
-cd node // or cd web
+cd node
 npm install
 ```
 
-Install Project Dependencies
+Running Node.js Example:
 
 ```ruby
-npm install
-```
-
-Run 'Hello World' Node Example that gets OBJKT data
-
-```ruby
+cd node
 node index.js
+```
+
+Running Web Example on Localhost:
+
+```ruby
+cd web
+npm run dev
+```
+
+Building Web Example for Deploy:
+
+```ruby
+cd web
+npm run 
 ```
 
 
