@@ -7,7 +7,7 @@ This folder has a Node.js example that utilize the [Axios](https://www.npmjs.com
 ## Better Call Dev - Relevant Messages
 Here are some of the different requests and endpoints that you can interact with on the Better Call Dev API:
 
-### Get User Metadata from a Tezos Address - [API](https://better-call.dev/docs#operation/get-account-info)
+### Get User Metadata from a Tezos Address - [API Get Account Info](https://better-call.dev/docs#operation/get-account-info)
 > Returns Total Number of OBJKTs collected
 
 API Endpoint: https://api.better-call.dev/v1/account/mainnet/{address}
