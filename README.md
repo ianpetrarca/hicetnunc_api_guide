@@ -13,7 +13,7 @@ This project was created as a guide to query and parse hicetnunc OBJKT data rom 
 ## Headers
 
 ### REST API
-A REST API is a staple of web-development and is a way for users to uniformly write and read data from external server. In order to build experiences on top of Hicetnunc, we need to get data on a user's Tezos address or a from a unique OBJKT ID. We are using the Better Call Dev REST API to query and filter the relevant data that we need.
+A REST API is a staple of web-development and is a way for users to uniformly write and read data from an external server. In order to build experiences on top of Hicetnunc, we need to get data on a user's Tezos address or a from a unique OBJKT ID. We are using the Better Call Dev REST API to query and filter the relevant data that we need.
 
 ```ruby
 async function getTokenInfo(id){
