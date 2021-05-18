@@ -1,6 +1,10 @@
 # Hicetnunc / Better Call Dev API Guide
 > A guide for using the Better Call Dev API to query and parse hic et nunc data.
 
+## General Info
+This project was created to showcase how to query and parse hicetnunc OBJKT data rom the Better Call Dev REST API. Using these methods you can build auxilary experiences for your hicetnunc creations on a website or Node.js server.
+
+
 ```ruby
 async function getTokenInfo(id){
     try {
@@ -11,9 +15,6 @@ async function getTokenInfo(id){
     }
 }
 ```
-
-## General Info
-This project was created to showcase how to query and parse hicetnunc OBJKT data rom the Better Call Dev REST API. Using these methods you can build auxilary experiences for your hicetnunc creations on a website or Node.js server.
 
 ### REST API
 
