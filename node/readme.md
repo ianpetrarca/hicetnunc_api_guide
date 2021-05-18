@@ -11,3 +11,15 @@ Here are some of the different requests and endpoints that you can interact with
 > Returns Total Number of OBJKTs collected
 
 API Endpoint: https://api.better-call.dev/v1/account/mainnet/{address}
+
+'''
+async function getUserInfo(user) {
+    try {
+        const res = await axios.get('https://api.better-call.dev/v1/account/mainnet/' + user + '/token_balances')
+        return res.data.total
+    } catch (error) {
+        return null
+    }
+}
+
+'''
