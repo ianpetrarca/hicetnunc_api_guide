@@ -1,5 +1,10 @@
 # Hicetnunc API Guide
-![hen](https://www.hicetnunc.xyz/og-image.jpg)
+
+<p align="center">
+<img src="https://www.hicetnunc.xyz/og-image.jpg" alt="alt text" width="700">
+</p>
+
+
 > A guide for using various Tezos APIs to build web experiences and tools for hicetnunc.xyz.
 
 #### Table of Contents  
