@@ -38,8 +38,6 @@ Metadata Generator (Web Example): [https://hen-metadata.web.app/](https://hen-me
 
 #### What is Hic Et Nunc?
 
-Hic et nunc
-
 here and now
 
 [Hic et nunc](hicetnunc.xyz/) is a decentralized NFT marketplace built on the Tezos blockchain. It enables users to create, sell and interact with Tezos NFT's called OBJKTS. Each OBJKT holds a single artwork containing a 3d model, image, video, html snippet, glsl shader, etc. Hic et nunc lets creators limit how many digital versions of their work are verifiably in existence.
