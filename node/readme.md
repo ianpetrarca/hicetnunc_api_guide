@@ -12,7 +12,7 @@ Here are some of the different requests and endpoints that you can interact with
 
 API Endpoint: https://api.better-call.dev/v1/account/mainnet/{address}
 
-'''
+```ruby
 async function getUserInfo(user) {
     try {
         const res = await axios.get('https://api.better-call.dev/v1/account/mainnet/' + user + '/token_balances')
@@ -21,5 +21,5 @@ async function getUserInfo(user) {
         return null
     }
 }
+```
 
-'''
