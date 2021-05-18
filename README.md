@@ -63,6 +63,19 @@ cd node
 ```
 
 
+Install Project Dependencies
+
+```ruby
+npm install
+```
+
+Run 'Hello World' Node Example that gets OBJKT data
+
+```ruby
+node index.js
+```
+
+
 ## Usage and Code Examples
 After downloading or cloning this repository, please run the following commands to get started:
 
