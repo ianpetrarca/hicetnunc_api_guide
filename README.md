@@ -73,8 +73,8 @@ In order to get metadata on a Tezos Wallet Address or hic et nunc OBJKT ID you m
 View more in depth documentation inside of each example's folder:
  
 - [Better Call Dev Node.js Examples](/node)  
-- ~~[TZKT Node.js Examples](/node)~~
 - [Website Example](/web)  
+- ~~[TZKT Node.js Examples](/node)~~ (coming soon)
 
 # Contact
 Created by [@ianpetrarca](https://www.twitter.com/ianpetrarca) - tz1LobSdhfUqYpMojXWHQLJPhFLEzUEd9JAn
