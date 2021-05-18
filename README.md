@@ -29,11 +29,15 @@ Depending on the implementation, a blockchain can be both decentralized or centr
 
 - Cryptocurrency 
 
-A cryptocurrency is a means to transact value on a digital platform not owned by a single nation state or government entity. There are various reasons why that is needed that people much smarter than me can talk to you about: https://www.youtube.com/watch?v=aC9Uu5BUxII
+A cryptocurrency is a means to transact value on a digital platform not owned by a single nation state or government entity. If you are curious as to why that might be needed, you might be in the wrong place.
 
 - NFT
 
-An NFT stands for 'non-fungible-token' and was originally created as one of many smart contract types to use on the Ethereum network. Unlike a cryptocurrency, an NFT is a mathmatically verifiable receipt that associates you to files, in-game goods, artwork, etc.
+An NFT stands for 'non-fungible-token' and was originally created as one of many smart contract types to use on the Ethereum network. Unlike a currency, an NFT is a more of a receipt that uses a private key to verify your assocation to certain files, items and events that happen on the blockchain. It is your digital backpack that lets you store and collect moments and digital blockchain goods. 
+
+- Hicetnunc
+
+Hicetnunc is a open source movement that created the Tezos NFT specification called an 'OBJKT.' Unlike other NFT platformns, hicetnunc uses Tezos, which is a proof-of-stake blockchain with significantly less fees and environmental impact caused by mining. Hicetnunc.xyz allows you to create, collect and interact with the Tezos blockchain.
 
 ## Examples
 
