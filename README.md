@@ -17,14 +17,10 @@ async function getTokenInfo(id){
 ```
 
 ## Examples
-This code repo includes two types of examples: a Node.js server-only tool and a full static website implementation using Webpack.
-
+This code repo includes two types of examples: Node.js server examples and a full static website example using Webpack.
 
 ### REST API
-
-A decentralized system is one where one entity does not have full control over the decision making, additions and maitenance of the system. A decentralized system is inherently communal, serving groups of interconnected relevant parties that want to transact with trust. In many cases decentralization is impossible to reach, a best attempt at a utopian life. 
-
-
+A REST API is a staple of web-development and is a way for users to uniformly write and read data from external server. In order to build experiences on top of Hicetnunc, we need to get data on a user's Tezos address or a from a unique OBJKT ID. We are using the Better Call Dev REST API to query and filter the relevant data that we need.
 
 # What is Hic Et Nunc?
 
