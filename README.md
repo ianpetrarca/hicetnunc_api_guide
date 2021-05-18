@@ -7,7 +7,7 @@ This project was created as a guide to query and parse hicetnunc OBJKT data rom 
 ## Table of Contents  
 - [What is Hicetnunc?](#what-is-hic-et-nunc)  
 - [Project Setup](#project-setup)  
-- [Node.js Examples](#project-setup)  
+- [Node.js Examples](/node)  
 
 ## Headers
 
