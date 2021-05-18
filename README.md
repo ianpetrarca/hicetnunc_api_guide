@@ -1,6 +1,15 @@
 # Hicetnunc / Better Call Dev API Guide
 > A guide for using the Better Call Dev API to query and parse hic et nunc data.
 
+`async function getTokenInfo(id){
+    try {
+        const res = await axios.get('https://api.better-call.dev/v1/tokens/mainnet/metadata?token_id=' + id.toString())
+        return res.data[0]
+    } catch (error) {
+        return null
+    }
+}`
+
 
 ## General Info
 This project was created to showcase how to query and parse hicetnunc OBJKT data rom the Better Call Dev REST API. Using these methods you can build auxilary experiences for your hicetnunc creations on a website or Node.js server.
@@ -44,7 +53,14 @@ Hicetnunc is a open source movement that created the Tezos NFT specification cal
 How does one go about using it?
 Provide various use cases and code examples here.
 
-`write-your-code-here`
+`async function getTokenInfo(id){
+    try {
+        const res = await axios.get('https://api.better-call.dev/v1/tokens/mainnet/metadata?token_id=' + id.toString())
+        return res.data[0]
+    } catch (error) {
+        return null
+    }
+}`
 
 
 ## Project Status
