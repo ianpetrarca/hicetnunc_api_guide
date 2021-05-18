@@ -75,41 +75,8 @@ Building Web Example for Deploy:
 
 ```ruby
 cd web
-npm run 
+npm run production
 ```
-
-
-
-
-
-## Usage and Code Examples
-After downloading or cloning this repository, please run the following commands to get started:
-
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
-
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
-
 
 ## Contact
 Created by [@ianpetrarca](https://www.twitter.com/ianpetrarca) - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
