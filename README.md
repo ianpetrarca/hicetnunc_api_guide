@@ -3,7 +3,7 @@
 
 
 ## General Info
-Hic et nunc is a decentralized NFT marketplace built on the Tezos blockchain. That sounds complicated let's unpack:
+This project was created to give guidance and code examples on how to query and parse hicetnunc OBJKT from the Better Call Dev Tezos API.
 
 ### REST API
 
