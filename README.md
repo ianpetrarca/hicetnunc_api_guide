@@ -3,7 +3,7 @@
 </p>
 
 
-# Hicetnunc API Guide
+# hic et nunc API Guide
 > A guide for using various Tezos APIs to build web experiences and tools for hicetnunc.xyz.
 
 #### Table of Contents  
