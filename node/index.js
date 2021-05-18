@@ -82,7 +82,7 @@ async function getObjkts(id){
 }
 
 //Fetch Objkt Info in an inputted Array
-getObjkts([36899,79321,78993])
+getObjkts([36899])
 
 //Get all collections and the last ten creations from a Users Tezos Address
-getProfile('tz1dy6DgvAjeBZpfRE3NoL84BRm4tupyKfFf')
+// getProfile('tz1dy6DgvAjeBZpfRE3NoL84BRm4tupyKfFf')

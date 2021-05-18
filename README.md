@@ -64,10 +64,16 @@ Hicetnunc is a open source movement that created the Tezos NFT specification cal
 
 ## Tezos API
 
+In order to get metadata on a Tezos Wallet Address or hic et nunc OBJKT ID you must interact with a Tezos blockchain explorer API. This guide focuses on the two most popular Tezos Blockchain Explorer APIS:
+
+- [Better Call Dev API](https://better-call.dev/)
+- [Tezos Block Explorer](http://tzkt.io/)
+
 # Tutorials and Code Examples
 View more in depth documentation inside of each example's folder:
  
-- [Node.js Examples](/node)  
+- [Better Call Dev Node.js Examples](/node)  
+- ~~[TZKT Node.js Examples](/node)~~
 - [Website Example](/web)  
 
 ## Contact
