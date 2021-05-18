@@ -32,9 +32,7 @@
 
 # General Information
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/1003196/118697952-db4f6100-b7dd-11eb-8dd1-d8494295d749.png" alt="alt text" width="700">
-</p>
+<img src="https://user-images.githubusercontent.com/1003196/118697952-db4f6100-b7dd-11eb-8dd1-d8494295d749.png" alt="alt text" width="600">
 
 #### What is Hic Et Nunc?
 
