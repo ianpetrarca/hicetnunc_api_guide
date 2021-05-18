@@ -1,7 +1,13 @@
 # Hicetnunc API Guide
 > A guide for using various Tezos APIs to build web experiences and tools for hicetnunc.xyz.
 
-### Roadmap
+#### Table of Contents  
+- [General Information](#what-is-hic-et-nunc)  
+- [Tezos APIs](#what-is-hic-et-nunc)  
+- [Node.js Examples](/node)  
+- [Website Example](/web)  
+
+#### Roadmap
 
 1)  ~~Release initial Better Call Dev Nodejs examples and Github Readme~~
 2)  Add simple html web demo that populates a table with message respose data
@@ -17,13 +23,6 @@
 - [Tezos Block Explorer](http://tzkt.io/)
 - [Better Call Dev API](https://better-call.dev/)
 - [TZKT API Docs](https://api.tzkt.io/)
-
-#### Table of Contents  
-- [General Information](#what-is-hic-et-nunc)  
-- [Tezos APIs](#what-is-hic-et-nunc)  
-- [Node.js Examples](/node)  
-- [Website Example](/web)  
-
 
 ## General Information
 
