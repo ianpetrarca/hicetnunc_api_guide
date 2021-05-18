@@ -80,5 +80,14 @@ npm run production
 
 # Nodejs Examples
 
+Move into node.js directory and install dependencies 
+
+```ruby
+cd node
+npm install
+```
+
+# Web Examples
+
 ## Contact
 Created by [@ianpetrarca](https://www.twitter.com/ianpetrarca) - tz1LobSdhfUqYpMojXWHQLJPhFLEzUEd9JAn
