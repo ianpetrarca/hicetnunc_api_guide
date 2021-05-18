@@ -27,17 +27,11 @@ An NFT stands for 'non-fungible-token' and was originally created as one of many
 
 Hicetnunc is a open source movement that created the Tezos NFT specification called an 'OBJKT.' Unlike other NFT platformns, hicetnunc uses Tezos, which is a proof-of-stake blockchain with significantly less fees and environmental impact caused by mining. Hicetnunc.xyz allows you to create, collect and interact with the Tezos blockchain.
 
-## Examples
-
-List the ready features here:
-- Nodejs Examples
-- Web Examples
 
 
-## Setup
+# What is this Github Repo?
 What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
 
 
 ## Usage
