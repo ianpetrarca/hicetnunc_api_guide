@@ -52,14 +52,12 @@ async function getProfile(user){
         });  
 
         console.log("collection"+balances)
-        profile.collection = balances
       });
   }); 
 
   //Get Creations
   getCreations(user,0).then((data) => {
     console.log("creations" + data)
-    profile.creations = data
   })
 
 }
