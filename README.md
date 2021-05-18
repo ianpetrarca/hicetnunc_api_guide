@@ -47,7 +47,7 @@ Depending on the implementation, a blockchain can be both decentralized or centr
 
 ### Cryptocurrency 
 
-A cryptocurrency is a means to transact value on a digital platform not owned by a single nation state or government entity. If you are curious as to why that might be needed, you might be in the wrong place. Please refer to the [Bitcoin White Paper](https://bitcoin.org/bitcoin.pdf) and [Dr. Daniel Kim's video on monetary policy, inflation, central banking, Bitcoin and Monero](https://www.youtube.com/watch?v=aC9Uu5BUxII).
+A cryptocurrency is a means to transact value on a digital platform not owned by a single nation state or government entity. If you are curious as to why that might be needed, you might be in the wrong place. Please refer to the [Bitcoin White Paper](https://bitcoin.org/bitcoin.pdf) and Dr. Daniel Kim's [video](https://www.youtube.com/watch?v=aC9Uu5BUxII) on monetary policy, inflation, central banking, Bitcoin and Monero.
 
 ### NFT
 
