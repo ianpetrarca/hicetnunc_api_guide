@@ -40,3 +40,26 @@ async function getTokenInfo(id){
 }
 ```
 
+### 3) Get OBJKTs created from a Tezos Address - [Get Token Metadata- BCD API Docs ](https://better-call.dev/docs#operation/list-token-metadata)
+> Returns OBJKTs created from passed Creator Tezos Address. Paginated API response. Function includes input to offset results.
+
+API Endpoint: https://api.better-call.dev/v1/tokens/mainnet/metadata?token_id=
+
+Example:
+
+```ruby
+async function getCreations(id,offset){
+  try {
+      const res = await axios.get('https://api.better-call.dev/v1/tokens/mainnet/metadata?creator=' + id + '&size=10&offset='+offset)
+      return res.data
+  } catch (error) {
+      return null
+  }
+}
+```
+
+
+
+
+
+
