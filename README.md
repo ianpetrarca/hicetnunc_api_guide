@@ -4,6 +4,11 @@
 ## General Info
 This project was created as a guide to query and parse hicetnunc OBJKT data rom the Better Call Dev REST API. Using these methods you can build auxilary experiences for your hicetnunc creations on a website or Node.js server. This code repo includes two types of examples: Node.js server examples and a full static website example using Webpack.
 
+##### Table of Contents  
+[What if Hicetnunc?](#What)  
+[Emphasis](#emphasis)  
+
+## Headers
 
 ### REST API
 A REST API is a staple of web-development and is a way for users to uniformly write and read data from external server. In order to build experiences on top of Hicetnunc, we need to get data on a user's Tezos address or a from a unique OBJKT ID. We are using the Better Call Dev REST API to query and filter the relevant data that we need.
@@ -19,7 +24,7 @@ async function getTokenInfo(id){
 }
 ```
 
-# What is Hic Et Nunc?
+#What is Hic Et Nunc?
 
 Hic et nunc is a decentralized NFT marketplace built on the Tezos blockchain. That sounds complicated let's unpack:
 
