@@ -13,12 +13,13 @@
 <!-- * [License](#license) -->
 
 
-## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+## General Information from https://www.hicetnunc.xyz/about 
+
+hic et nunc
+The present decentralized application allows its users to manage decentralized digital assets, serving as a public smart contract infrastructure on Tezos Blockchain.
+
+IPFS OBJKTs can be minted and traded by permissionless means. such experiment was designed intending to imagine alternative crypto economies.
+
 
 ## Examples
 
