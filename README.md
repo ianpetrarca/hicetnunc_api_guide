@@ -25,10 +25,11 @@
 - [TZKT API Docs](https://api.tzkt.io/)
 
 # General Information
-> An overview of hicetnunc.xyz, decentralization, blockchain and NFTs.
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/1003196/118697952-db4f6100-b7dd-11eb-8dd1-d8494295d749.png" alt="alt text" width="700">
 </p>
+
 #### What is Hic Et Nunc?
 
 [Hic et nunc](hicetnunc.xyz/) is a decentralized NFT marketplace built on the Tezos blockchain. It allows users to create, sell and interact with Tezos NFT's called OBJKTS that can hold a single artwork, 3d model, image, video, etc. When a user uploads their content to hic et nunc, the actual asset file is uploaded to [IPFS](https://ipfs.io/), a decentralized storage network. The user inputted metadata is uploaded and stored in the Tezos blockchain. 
