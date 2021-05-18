@@ -30,7 +30,7 @@ async function getTokenInfo(id){
     }
 }
 ```
-[image](https://user-images.githubusercontent.com/1003196/118697952-db4f6100-b7dd-11eb-8dd1-d8494295d749.png)
+![image](https://user-images.githubusercontent.com/1003196/118697952-db4f6100-b7dd-11eb-8dd1-d8494295d749.png)
 
 # What is Hic Et Nunc?
 
