@@ -8,7 +8,7 @@
 
 #### Table of Contents  
 - [Introduction](#hicetnunc-api-guide)  
-- [General Information](#what-is-hic-et-nunc)  
+- [General Information](#general-information)  
 - [Tezos APIs](#what-is-hic-et-nunc)  
 - [Node.js Examples](/node)  
 - [Website Example](/web)  
