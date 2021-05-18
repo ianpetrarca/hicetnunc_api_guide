@@ -8,4 +8,4 @@ This folder has a Node.js example that utilize the [Axios](https://www.npmjs.com
 Here are some of the different requests and endpoints that you can interact with on the Better Call Dev API:
 
 ### Get Info from a Users Tz - [API](https://better-call.dev/docs#operation/get-account-info)
-#### - https://api.better-call.dev/v1/account/mainnet/{address}
+API Endpoint: https://api.better-call.dev/v1/account/mainnet/{address}
