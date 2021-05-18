@@ -21,7 +21,7 @@ This project was created as a guide to query and parse hicetnunc OBJKT and tZ da
 
 <img style="margin-left:auto;margin-right:auto" src="https://user-images.githubusercontent.com/1003196/118697952-db4f6100-b7dd-11eb-8dd1-d8494295d749.png" alt="alt text" width="700">
 
-Hic et nunc is a decentralized NFT marketplace built on the Tezos blockchain. It allows uesrs to create, sell and interact with Tezos NFT's called OBJKTS that can hold a single artwork, 3d model, image, video, etc. When a user uploads their content to hic et nunc, the actual asset file is uploaded to [IPFS](https://ipfs.io/), a decentralized storage network. The user inputted metadata is uploaded and stored in the Tezos blockchain. 
+[Hic et nunc](hicetnunc.xyz/) is a decentralized NFT marketplace built on the Tezos blockchain. It allows uesrs to create, sell and interact with Tezos NFT's called OBJKTS that can hold a single artwork, 3d model, image, video, etc. When a user uploads their content to hic et nunc, the actual asset file is uploaded to [IPFS](https://ipfs.io/), a decentralized storage network. The user inputted metadata is uploaded and stored in the Tezos blockchain. 
 
 #### Hic et nunc Resources
 - [Hic et nunc](hicetnunc.xyz/)
