@@ -11,6 +11,7 @@
 - [General Information](#general-information)  
 - [Tezos APIs](#tezos-api)  
 - [Code Examples](#code-examples)  
+- [Contact](#contact)  
 
 #### Roadmap
 
@@ -29,7 +30,7 @@
 - [Better Call Dev API](https://better-call.dev/)
 - [TZKT API Docs](https://api.tzkt.io/)
 
-## General Information
+# General Information
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/1003196/118697952-db4f6100-b7dd-11eb-8dd1-d8494295d749.png" alt="alt text" width="700">
@@ -61,7 +62,7 @@ An NFT stands for 'non-fungible-token' and was originally created as one of many
 
 Hicetnunc is a open source movement that created the Tezos NFT specification called an 'OBJKT.' Unlike other NFT platformns, hicetnunc uses Tezos, which is a proof-of-stake blockchain with significantly less fees and environmental impact caused by mining. Hicetnunc.xyz allows you to create, collect and interact with the Tezos blockchain.
 
-## Tezos API
+# Tezos API
 
 In order to get metadata on a Tezos Wallet Address or hic et nunc OBJKT ID you must interact with a Tezos blockchain explorer API. This guide focuses on the two most popular Tezos Blockchain Explorer APIS:
 
@@ -75,5 +76,5 @@ View more in depth documentation inside of each example's folder:
 - ~~[TZKT Node.js Examples](/node)~~
 - [Website Example](/web)  
 
-## Contact
+# Contact
 Created by [@ianpetrarca](https://www.twitter.com/ianpetrarca) - tz1LobSdhfUqYpMojXWHQLJPhFLEzUEd9JAn
