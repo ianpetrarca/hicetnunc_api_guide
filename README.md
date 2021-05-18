@@ -2,7 +2,7 @@
 > A guide for using the Better Call Dev API to query and parse hic et nunc data.
 
 
-# how to interact with Hicetnunc using the Better Call Dev API
+## General Info
 Hic et nunc is a decentralized NFT marketplace built on the Tezos blockchain. That sounds complicated let's unpack:
 
 ### REST API
