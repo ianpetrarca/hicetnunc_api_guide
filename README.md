@@ -44,7 +44,7 @@ In order to fully appreciate hic et nunc, basic knowledge of decentralized syste
 
 #### Decentralized System
 
-A decentralized system is one where single entity does not have full control over the decision making, additions and maitenance of the system. A decentralized system is inherently communal, serving groups of interconnected relevant parties that want to transact with trust. In many cases decentralization is impossible to reach, a best attempt at a utopian life. 
+A decentralized system is one where single entity does not have full control over the decision making, additions and maitenance of the system. A decentralized system is inherently communal, serving groups of interconnected relevant parties that want to transact with trust. In many cases decentralization is impossible to reach, a best attempt.
 
 [Explainer Video on Decentralization](https://youtu.be/SrA7XTDCtok)
 
