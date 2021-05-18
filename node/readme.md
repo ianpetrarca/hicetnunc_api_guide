@@ -83,10 +83,9 @@ async function getCollection(user,offset) {
 Example:
 
 ```ruby
-//Get Single HeN Object
+
 async function getObjkts(id){
   let queue = new Array()
-  //Multiple Objects
   if(typeof id == 'object'){
     id.forEach(element => {
       queue.push(getTokenInfo(element))
@@ -102,7 +101,6 @@ async function getObjkts(id){
   }
 }
 
-//Fetch Objkt Info in an inputted Array
 getObjkts([36899,79321,78993])
 
 ```
