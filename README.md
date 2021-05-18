@@ -2,7 +2,7 @@
 > A guide for using various APIs to query and parse hicetnunc.xyz OBJKT and tz data
 
 ## General Info
-This project was created as a guide to query and parse hicetnunc OBJKT and tZ data from various publicly available APIs. Using these methods you can build auxiliary experiences for your hicetnunc creations on a website or Node.js server. This code repo includes three examples: a Better Call Dev Node.js examples, a TZTK.IO Node.js and a website implementation.
+This project was created as a guide to query and parse hicetnunc OBJKT and tZ data from various publicly available APIs. Using these methods you can build auxiliary experiences for your hicetnunc creations on a website or Node.js server.
 
 ## Roadmap
 
