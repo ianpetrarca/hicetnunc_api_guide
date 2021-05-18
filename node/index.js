@@ -1,71 +1,86 @@
 
 let axios = require('axios') //JS LIBRARY FOR REST API FUNCTIONS
 
-async function getCollection(user,amount) { //GET A USERS OBJKT COLLECTION IN SETS OF TEN
+async function getCollection(user,offset) { //GET A USERS OBJKT COLLECTION IN SETS OF TEN
   try {
-      let models_list = new Array()
-      let base_url = 'https://api.better-call.dev/v1/account/mainnet/'
-      let rate_limit = '/token_balances?size=10&offset='
-      for (let index = 0; index < Math.round(amount/10) ; index++) {
-        const res = await axios.get(base_url + user + rate_limit+index*10)
-        .then((response) => {
-            response.data.balances.forEach(element => {
-              if(element.name){
-                if(element.formats[0].mimeType.includes('gltf')){
-                  let item = {} // Create object for each GLTF in collection
-                  item.name = element.name //OBJKT Name
-                  item.url = 'https://cloudflare-ipfs.com/ipfs/' + element.artifact_uri.slice(7,element.artifact_uri.length) // OBJKT IPFS LINK
-                  item.description = element.description //OBJKT DESCRIPTION
-                  item.objkt_id = element.token_id //OBJKT # ID
-                  models_list.push(item) // ADD EACH OBJKT TO AN ARRAY OF ALL 3D MODELS
-                }
-              }
-            })
-            console.log("Loading OBJKTs " + index)//LOG OUT STATUS OF API REQUESTS 
-        })
-      }
-      return models_list // OUTPUT THE 3D MODEL LIST ARRAY
+      const res = await axios.get('https://api.better-call.dev/v1/account/mainnet/' + user + '/token_balances?size=10&offset=' + offset)
+      return res.data
   } catch (error) {
-   console.error() //ERROR LOG
+       return null
   }
-
 }
 
-async function getUserCollection(user) {
+async function getUserInfo(user) {
     try {
-        //REST API MESSAGE FORMATTING
-        let base_url = 'https://api.better-call.dev/v1/account/mainnet/'
-        let rate_limit = '/token_balances?size=10&offset='
-        let offset = '0';
-  
-        //GET # OF COLLECTED ITEMS FOR PAGINATION WITH REST API
-        const res = await axios.get(base_url + user + rate_limit+offset)
-        .then((response) => {
-          console.log(user + " HOLDS: " + response.data.total + " TOKENS")
-          getCollection(user,response.data.total).then((collection) => {
-            console.log(collection)
-            //DO STUFF WITH THE USERS COLLECTION DATA HERE
-          })
-        });
+        const res = await axios.get('https://api.better-call.dev/v1/account/mainnet/' + user + '/token_balances')
+        return res.data.total
     } catch (error) {
-      console.error(error);//LOG ERROR
+        return null
     }
+}
+
+async function getCreations(id,offset){
+  try {
+      const res = await axios.get('https://api.better-call.dev/v1/tokens/mainnet/metadata?creator=' + id + '&size=10&offset='+offset)
+      return res.data
+  } catch (error) {
+      return null
+  }
 }
   
 async function getTokenInfo(id){
     try {
-        let base_url = 'https://api.better-call.dev/v1/tokens/mainnet/metadata?token_id'
-        const res = await axios.get(base_url + id + '')
-        .then((response) => {
-          console.log(response)
-          return response
-        })
+        const res = await axios.get('https://api.better-call.dev/v1/tokens/mainnet/metadata?token_id=' + id.toString())
+        return res.data[0]
     } catch (error) {
-    
+        return null
     }
+}
+
+//Tezos Address
+async function getProfile(user){
+
+  let profile = {}
+
+  //Get Collection
+  getUserInfo(user).then((response) => {
+      let collection = new Array()
+      for (let index = 0; index < response / 10; index++) {
+        collection.push(getCollection(user,index*10))
+      }
+      Promise.all(collection).then((values) => {
+        let balances = new Array()
+        values.flat().forEach(element => {
+          balances = balances.concat(element.balances)
+        });  
+
+        console.log("collection"+balances)
+        profile.collection = balances
+      });
+  }); 
+
+  //Get Creations
+  getCreations(user,0).then((data) => {console.log("creations" + data)})
   
 }
 
-// getUserCollection('tz1LobSdhfUqYpMojXWHQLJPhFLEzUEd9JAn')
+//Get Single HeN Object
+async function getObjkt(id){
+  let queue = new Array()
+  //Multiple Objects
+  if(typeof id == 'object'){
+    id.forEach(element => {
+      queue.push(getTokenInfo(element))
+    });
+    Promise.all(queue).then((values) => {
+      console.log(values)
+    });
+  }else{
+    queue.push(getTokenInfo(id))
+    Promise.all(queue).then((values) => {
+      console.log(values)
+    });
+  }
+}
 
-// getTokenInfo(36899)
+getProfile('tz1dy6DgvAjeBZpfRE3NoL84BRm4tupyKfFf')

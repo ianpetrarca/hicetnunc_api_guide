@@ -35,24 +35,24 @@ getInfo(13441).then(data => {
 
 
 
-// document.getElementById("submit").addEventListener("click", function() {
-//   let hen_url = document.getElementById('url-field').value
+document.getElementById("get_single_objkt_btn").addEventListener("click", function() {
+  let hen_url = document.getElementById('url-field').value
   
-//   if(hen_url.includes="hic"){
-//     getInfo(hen_url.slice(hen_url.length-5, hen_url.length)).then(data => {
+  if(hen_url.includes="hic"){
+    getInfo(hen_url.slice(hen_url.length-5, hen_url.length)).then(data => {
       
-//       document.getElementById('objkt').src = data
-//       console.log('Model Changed to: ' + data );
-//     })
+      document.getElementById('objkt').src = data
+      console.log('Model Changed to: ' + data );
+    })
 
-//   } else {
-//      getInfo(hen_url).then(data => {
-//       document.getElementById('objkt').src = data
-//       console.log('Model Changed to: ' + data );
-//     })
-//   }
+  } else {
+     getInfo(hen_url).then(data => {
+      document.getElementById('objkt').src = data
+      console.log('Model Changed to: ' + data );
+    })
+  }
   
-// });
+});
 
 // getInfo(13441).then(data => {    
 //   document.getElementById('objkt').src = data
