@@ -1,7 +1,7 @@
 # Hicetnunc / Better Call Dev API Guide
 > A guide for using the Better Call Dev API to query and parse hic et nunc data.
 
-## Node.js Code Examples
+## Node.js Examples
 This folder has a Node.js example that utilize the [Axios](https://www.npmjs.com/package/axios) library for sending REST API messages to the [Better Call Dev](http://better-call.dev/docs) 
 
 ### 1) Get User Metadata from a Tezos Address - [Get Account Info - BCD API Docs ](https://better-call.dev/docs#operation/get-account-info)
@@ -75,6 +75,35 @@ async function getCollection(user,offset) {
        return null
   }
 }
+
+```
+
+### 5) Using Promise.All to get Metadata from multiple OBJKTs
+
+Example:
+
+```ruby
+//Get Single HeN Object
+async function getObjkts(id){
+  let queue = new Array()
+  //Multiple Objects
+  if(typeof id == 'object'){
+    id.forEach(element => {
+      queue.push(getTokenInfo(element))
+    });
+    Promise.all(queue).then((values) => {
+      console.log(values)
+    });
+  }else{
+    queue.push(getTokenInfo(id))
+    Promise.all(queue).then((values) => {
+      console.log(values)
+    });
+  }
+}
+
+//Fetch Objkt Info in an inputted Array
+getObjkts([36899,79321,78993])
 
 ```
 
