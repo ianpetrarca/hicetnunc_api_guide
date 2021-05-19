@@ -67,6 +67,8 @@ To get data from the above APIs we must send a REST GET message to their public 
 
 Here is an example of using Node.js to request an OBJKT's data using Node.js:
 
+Check out more Node.js examples [here](/node-bcd)  
+
 
 ```ruby
 async function getTokenInfo(id){
