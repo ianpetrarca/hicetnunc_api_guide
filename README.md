@@ -60,6 +60,14 @@ When a user uploads their content to hic et nunc, the actual file is uploaded to
 
 In order to fully appreciate hic et nunc, a basic knowledge of decentralized systems, cryptocurrency and blockchains is useful, check out the [General Information](#general-information) section.
 
+# IPFS Link
+
+The Tezos API returns a link to an OBJKTs IPFS file in a hash-format. In order to download the asset you must append the cloudflare IPFS cdn string:
+
+```ruby
+ 'https://cloudflare-ipfs.com/ipfs/'
+```
+
 # Tezos API
 
 In order to get metadata on a Tezos Wallet Address or hic et nunc OBJKT ID, you must interact with a Tezos blockchain explorer API. This guide focuses on the two most popular Tezos Blockchain Explorer APIS:
