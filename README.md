@@ -12,7 +12,7 @@
     - Fetches OBJKT meta data using a hicetnunc.xyz URL or OBJKT ID
     - Uses Webpack, Axios and Tailwind CSS
 
-- Get Collection from tZ address (Node.js Script): [Better Call Dev Example](/node-bcd)  
+- Get Collection from tz address (Node.js Script): [Better Call Dev Example](/node-bcd)  
     - Node.js example showing how to download metadata on all balances held by a tz address
 
 #### Big Picture
