@@ -75,6 +75,8 @@ In order to get metadata on a Tezos Wallet Address or hic et nunc OBJKT ID, you 
 - [Better Call Dev API](https://better-call.dev/)
 - [Tezos Block Explorer](http://tzkt.io/)
 
+To get data from the above APIs we must send a REST GET message to their public API endpoint URLs. This can be done using Node.js and the [Axios](https://www.npmjs.com/package/axios) library. 
+
 # Code Examples
 View more in depth documentation inside of each example's folder:
  
