@@ -18,6 +18,7 @@ Every single OBJKT in hic et nunc has it's metadata and IPFS link publicly avail
 - [Introduction](#build-websites-and-nodejs-scripts-with-hic-et-nunc-data)  
     - [Code Examples](#code-examples)  
     - [Big Picture](#big-picture)  
+    - [Roadmap](#roadmap)  
 - [General Information](#general-information)  
 - [Tezos APIs](#tezos-api)  
 - [Code Examples](#code-examples)  
