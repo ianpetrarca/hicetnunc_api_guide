@@ -71,9 +71,12 @@ async function getTokenInfo(id){
         return null
     }
 }
+
+getTokenInfo(36899)
+
 ```
 
-Example response when running 'getTokenInfo(36899)'
+Response:
 
  ![image](https://user-images.githubusercontent.com/1003196/118856635-2b452b00-b8a5-11eb-8b27-ecc433f65e45.png)
 
