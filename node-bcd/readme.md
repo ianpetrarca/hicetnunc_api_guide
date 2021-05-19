@@ -12,7 +12,7 @@ Better Call Dev is a public Tezos block explorer API created by [Baking Bad](htt
 
 #### Rate Limiting 
 
-One of the things you need to consider when sending REST messages is to not send too many outgoing messages at once. This can cause the REST server to send an error message. At the moment this project does not implement rate-limiting. It's on the [Roadmap](/#roadmap)
+One of the things you need to consider when sending REST messages is to not send too many outgoing messages at once. This can cause the REST server to send an error message. At the moment this project does not implement rate-limiting. It's on the [Roadmap](https://github.com/ianpetrarca/hicetnunc_api_guide#roadmap)
 
 ## Node.js Examples
 This folder has a Node.js example that utilize the [Axios](https://www.npmjs.com/package/axios) library for sending REST API messages to the [Better Call Dev](http://better-call.dev/docs) 
