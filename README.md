@@ -59,6 +59,24 @@ In order to get metadata on a Tezos Wallet Address or hic et nunc OBJKT ID, you 
 
 To get data from the above APIs we must send a REST GET message to their public API endpoint URLs. This can be done using Node.js and the [Axios](https://www.npmjs.com/package/axios) library. 
 
+Here is an example of using Node.js to request an OBJKT's data using Node.js:
+
+
+```ruby
+async function getTokenInfo(id){
+    try {
+        const res = await axios.get('https://api.better-call.dev/v1/tokens/mainnet/metadata?token_id=' + id.toString())
+        return res.data[0]
+    } catch (error) {
+        return null
+    }
+}
+```
+
+
+
+
+
 # Code Examples
 View more in depth documentation inside of each example's folder:
  
