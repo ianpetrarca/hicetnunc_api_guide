@@ -48,7 +48,7 @@ Every single OBJKT in hic et nunc has it's metadata and IPFS link publicly avail
 
 When a user uploads their content to hic et nunc, the actual file asset is uploaded to [IPFS](https://ipfs.io/), a decentralized storage network. The other metadata inputed via the minting process is stored in the Tezos blockchain. 
 
-## General Info
+### Blockchain Knowledge Base:
 
 In order to fully appreciate hic et nunc, a basic knowledge of decentralized systems, cryptocurrency and blockchains is useful:
 
