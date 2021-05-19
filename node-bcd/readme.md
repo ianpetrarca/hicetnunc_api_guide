@@ -1,3 +1,8 @@
+
+<p style="margin-top:50px" align="center">
+<img src="https://better-call.dev/img/logo_og.png" alt="alt text" width="400">
+</p>
+
 # Hicetnunc / Better Call Dev API Guide
 > A guide for using the Better Call Dev API to query and parse hic et nunc data.
 
