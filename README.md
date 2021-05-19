@@ -9,6 +9,10 @@
 - Metadata Generator (Web Example): [https://hen-metadata.web.app/](https://hen-metadata.web.app/)
 - Get Collection from tZ address (Node.js Script): [Better Call Dev Example](/node-bcd)  
 
+#### Big picture
+
+hic et nunc is quickly becoming one of the largest libraries for creative content. Every single OBJKT's metadata is publicly available and it's IPFS CDN link allows you to easily use them in other applications. The Tezos blockchain APIs are the gateway into building rich experiences that utilize this unique new library that features GLTF models, GLSL shaders and other file types not supported on other NFT exchanges.
+
 #### Table of Contents  
 - [Introduction](#hicetnunc-api-guide)  
 - [General Information](#general-information)  
