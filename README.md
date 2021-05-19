@@ -13,7 +13,7 @@
 
 #### Big Picture
 
-Every single OBJKT in hic et nunc has it's metadata and IPFS CDN link publicly available via a Tezos blockchain exlplorer API. The goal of this guide is to help developers integrate hic et nunc content into their applications and websites. hic et nunc is growing exponentially, is eco-friendly and features unique file types like GLTF and GLSL. Use these tools to build the future of distributed creative content.
+Every single OBJKT in hic et nunc has it's metadata and IPFS link publicly available for download via a Tezos blockchain exlplorer API. The goal of this guide is to help developers integrate hic et nunc content into their applications and websites. Use these tools to build the future of distributed creative content.
 #### Table of Contents  
 - [Introduction](#hicetnunc-api-guide)  
 - [General Information](#general-information)  
