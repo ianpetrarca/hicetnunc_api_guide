@@ -9,9 +9,9 @@
 - Metadata Generator (Web Example): [https://hen-metadata.web.app/](https://hen-metadata.web.app/)
 - Get Collection from tZ address (Node.js Script): [Better Call Dev Example](/node-bcd)  
 
-#### Big picture
+#### Big Picture
 
-Every single OBJKT in hic et nunc has it's metadata and IPFS CDN link publicly available via Tezos blockchain exlplorer APIs. Images, videos, 3D Models and other OBJKT file types can easily be downloaded into your websites and WebXR experiences using the examples shown in this guide.
+Every single OBJKT in hic et nunc has it's metadata and IPFS CDN link publicly available via Tezos blockchain exlplorer APIs. Images, videos, 3D Models and other OBJKT file types can easily be downloaded into your websites and WebXR experiences using the examples shown in this guide. The goal of this guide is to help developers integrate hic et nunc content into their applications and websites.
 
 #### Table of Contents  
 - [Introduction](#hicetnunc-api-guide)  
