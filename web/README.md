@@ -1,5 +1,5 @@
 <p style="margin-top:50px" align="center">
-<img src="https://user-images.githubusercontent.com/1003196/118859239-056d5580-b8a8-11eb-95b6-b4265c58575c.png" alt="alt text" width="700">
+<img src="https://user-images.githubusercontent.com/1003196/118859239-056d5580-b8a8-11eb-95b6-b4265c58575c.png" alt="alt text" width="100%">
 </p>
 
 Metadata Generator (Web Example): [https://hen-metadata.web.app/](https://hen-metadata.web.app/)
