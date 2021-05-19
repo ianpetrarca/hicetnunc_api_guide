@@ -39,9 +39,11 @@ Every single OBJKT in hic et nunc has it's metadata and IPFS link publicly avail
 - [Better Call Dev API](https://better-call.dev/)
 - [TZKT API Docs](https://api.tzkt.io/)
 
-# General Information
-<br>
+<p style="margin-top:50px" align="center">
 <img src="https://user-images.githubusercontent.com/1003196/118697952-db4f6100-b7dd-11eb-8dd1-d8494295d749.png" alt="alt text" width="600">
+</p>
+
+
 
 ## What is Hic Et Nunc?
 *here and now* 
@@ -50,7 +52,7 @@ Every single OBJKT in hic et nunc has it's metadata and IPFS link publicly avail
 
 When a user uploads their content to hic et nunc, the actual file asset is uploaded to [IPFS](https://ipfs.io/), a decentralized storage network. The other metadata inputed via the minting process is stored in the Tezos blockchain. 
 
-## Terms
+## General Info
 
 In order to fully appreciate hic et nunc, a basic knowledge of decentralized systems, cryptocurrency and blockchains is useful:
 
