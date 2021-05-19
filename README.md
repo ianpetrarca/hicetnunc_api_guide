@@ -16,6 +16,7 @@
 Every single OBJKT in hic et nunc has it's metadata and IPFS link publicly available for download via a Tezos blockchain exlplorer API. The goal of this guide is to help developers integrate hic et nunc content into their applications and websites. Use these tools to build the future of distributed creative content.
 #### Table of Contents  
 - [Introduction](#build-websites-and-nodejs-scripts-with-hic-et-nunc-data)  
+    - [Code Examples](#code-examples)  
 - [General Information](#general-information)  
 - [Tezos APIs](#tezos-api)  
 - [Code Examples](#code-examples)  
