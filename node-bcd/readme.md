@@ -6,6 +6,14 @@
 ## Node.js Examples
 This folder has a Node.js example that utilize the [Axios](https://www.npmjs.com/package/axios) library for sending REST API messages to the [Better Call Dev](http://better-call.dev/docs) 
 
+#### This script shows you how to:
+
+- Get metadata on OBJKTs 
+- Get user collections
+- Get User creations (limited)
+- Get Total number of OBJKTs held by a user
+
+
 ### 1) Get User Metadata from a Tezos Address - [Get Account Info - BCD API Docs ](https://better-call.dev/docs#operation/get-account-info)
 > Returns Total Number of OBJKTs collected
 
