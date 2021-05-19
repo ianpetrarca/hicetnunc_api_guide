@@ -5,7 +5,10 @@
 
 # hic et nunc API Guide
 ### A guide for using various Tezos APIs to build web experiences and tools for hicetnunc.xyz.
-#### [Hic et nunc](hicetnunc.xyz/) is a decentralized NFT marketplace built on the Tezos blockchain.
+#### [Hic et nunc](hicetnunc.xyz/) is a decentralized NFT marketplace built on the Tezos blockchain. This Github repo is dedicated towards understanding how to use OBJKT and tz wallet data from different Tezos API to rich web experiences. 
+####
+
+
 Metadata Generator (Web Example): [https://hen-metadata.web.app/](https://hen-metadata.web.app/)
 
 #### Table of Contents  
