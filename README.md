@@ -4,7 +4,7 @@
 
 
 # hic et nunc API Guide
-### Build websites and Node.js scripts with hicetnunc.xyz OBJKTS
+### Build websites and Node.js scripts with hicetnunc.xyz API data
 #### [Hic et nunc](hicetnunc.xyz/) is a decentralized NFT marketplace built on the Tezos blockchain. This Github repo is dedicated towards understanding how to use OBJKT and tz wallet data from different Tezos API to build rich web experiences. 
 ####
 
