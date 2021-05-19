@@ -41,12 +41,6 @@ Every single OBJKT in hic et nunc has it's metadata and IPFS link publicly avail
 
 # General Information
 
-<p style="margin-top:50px" align="center">
-<img src="https://user-images.githubusercontent.com/1003196/118697952-db4f6100-b7dd-11eb-8dd1-d8494295d749.png" alt="alt text" width="600">
-</p>
-
-
-
 ## What is Hic Et Nunc?
 *here and now* 
 
