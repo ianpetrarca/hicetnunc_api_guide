@@ -19,7 +19,8 @@ Every single OBJKT in hic et nunc has it's metadata and IPFS link publicly avail
     - [Code Examples](#code-examples)  
     - [Big Picture](#big-picture)  
     - [Roadmap](#roadmap)  
-    - [HeN Resources](#hic-et-nunc-resources)  
+    - [HeN Resources](#hic-et-nunc-resources) 
+    - [Tezos-resources](#tezos-resources) 
 - [General Information](#general-information)  
 - [Tezos APIs](#tezos-api)  
 - [Code Examples](#code-examples)  
@@ -43,7 +44,7 @@ Every single OBJKT in hic et nunc has it's metadata and IPFS link publicly avail
 - [Better Call Dev API](https://better-call.dev/)
 - [TZKT API Docs](https://api.tzkt.io/)
 
-# General Information
+# hic et nunc
 
 ### What is Hic Et Nunc?
 *here and now* 
