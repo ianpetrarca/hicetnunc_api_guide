@@ -12,8 +12,8 @@
     - Fetches OBJKT meta data using a hicetnunc.xyz URL or OBJKT ID
     - Uses Webpack, Axios and Tailwind CSS
 
-- Get OBJKT Metadata (Node.js Script): [Better Call Dev Example](/node-bcd/index.js)  
-    - Node.js example showing how to download metadata on all balances held by a tz address
+- Get User Collection (Node.js Script): [Better Call Dev Example](/node-bcd/index.js)  
+    - Node.js example showing how to download a hic et nunc collection by a tz address
 
 #### Big Picture
 
