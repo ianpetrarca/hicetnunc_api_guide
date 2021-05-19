@@ -6,6 +6,8 @@
 ### Build websites and Node.js scripts with [hic et nunc](hicetnunc.xyz/) data
 #### hic et nunc is a decentralized NFT marketplace built on the Tezos blockchain. This Github repo is a guide for using Tezos APIs to build rich web experiences with [Hic et nunc](hicetnunc.xyz/) data.
 
+#### Code Examples
+
 - Metadata Generator (Web Example): [https://hen-metadata.web.app/](https://hen-metadata.web.app/)
 - Get Collection from tZ address (Node.js Script): [Better Call Dev Example](/node-bcd)  
 
