@@ -68,6 +68,18 @@ The Tezos API returns a link to an OBJKTs IPFS file in a hash-format. In order t
  'https://cloudflare-ipfs.com/ipfs/'
 ```
 
+The Tezos API will give you an IPFS Hash that looks like:
+
+```ruby
+ 'ipfs://QmNrhZHUaEqxhyLfqoq1mtHSipkWHeT31LNHb1QEbDHgnc'
+```
+
+Combine the Cloudflare CDN base URL with the IPFS hash:
+
+```ruby
+ 'https://cloudflare-ipfs.com/ipfs/QmNrhZHUaEqxhyLfqoq1mtHSipkWHeT31LNHb1QEbDHgnc'
+```
+
 # Tezos API
 
 In order to get metadata on a Tezos Wallet Address or hic et nunc OBJKT ID, you must interact with a Tezos blockchain explorer API. This guide focuses on the two most popular Tezos Blockchain Explorer APIS:
