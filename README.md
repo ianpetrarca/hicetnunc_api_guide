@@ -2,15 +2,12 @@
 <img src="https://www.hicetnunc.xyz/og-image.jpg" alt="alt text" width="400">
 </p>
 
-
 # hic et nunc API Guide
 ### Build websites and Node.js scripts with [hic et nunc](hicetnunc.xyz/) data
 #### hic et nunc is a decentralized NFT marketplace built on the Tezos blockchain. This Github repo is a guide for using various Tezos APIs to build rich web experiences with [Hic et nunc](hicetnunc.xyz/) data.,
-####
-
 
 - Metadata Generator (Web Example): [https://hen-metadata.web.app/](https://hen-metadata.web.app/)
-- [Better Call Dev Node.js Examples](/node-bcd)  
+- Get Collection from tZ address (Node.js Script): [Better Call Dev Example](/node-bcd)  
 
 #### Table of Contents  
 - [Introduction](#hicetnunc-api-guide)  
