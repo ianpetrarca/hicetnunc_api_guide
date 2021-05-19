@@ -38,7 +38,7 @@ Every single OBJKT in hic et nunc has it's metadata and IPFS CDN link publicly a
 - [TZKT API Docs](https://api.tzkt.io/)
 
 # General Information
-
+<br>
 <img src="https://user-images.githubusercontent.com/1003196/118697952-db4f6100-b7dd-11eb-8dd1-d8494295d749.png" alt="alt text" width="600">
 
 ### What is Hic Et Nunc?
