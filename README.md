@@ -41,7 +41,7 @@ Every single OBJKT in hic et nunc has it's metadata and IPFS CDN link publicly a
 
 <img src="https://user-images.githubusercontent.com/1003196/118697952-db4f6100-b7dd-11eb-8dd1-d8494295d749.png" alt="alt text" width="600">
 
-#### What is Hic Et Nunc?
+### What is Hic Et Nunc?
 *here and now* 
 
 [Hic et nunc](hicetnunc.xyz/) is a decentralized NFT marketplace built on the Tezos blockchain. It enables users to create, sell and interact with Tezos NFT's called OBJKTS. Each OBJKT holds a single artwork containing a 3d model, image, video, html snippet, glsl shader, etc. Hic et nunc lets creators limit how many digital versions of their work are in existence.
