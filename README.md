@@ -61,7 +61,7 @@ In order to fully appreciate hic et nunc, a basic knowledge of decentralized sys
 In order to get metadata on a Tezos Wallet Address or hic et nunc OBJKT ID, you must interact with a Tezos blockchain explorer API. This guide focuses on the two most popular Tezos Blockchain Explorer APIS:
 
 - [Better Call Dev API](https://better-call.dev/)
-- [Tezos Block Explorer](http://tzkt.io/)
+- ~~[Tezos Block Explorer](http://tzkt.io/)~~ (coming soon)
 
 To get data from the above APIs we must send a REST GET message to their public API endpoint URLs. This can be done using Node.js and the [Axios](https://www.npmjs.com/package/axios) library. 
 
