@@ -8,7 +8,7 @@
 
 ## Better Call Dev
 
-Better Call Dev is a public Tezos block explorer API created by [Baking Bad](https://twitter.com/TezosBakingBad). BCD has public REST endpoint and returns data in a JSON object. We can use BCD to request data on OBJKTs and tz addresses. 
+Better Call Dev is a public Tezos block explorer API created by [Baking Bad](https://twitter.com/TezosBakingBad). BCD has a public REST endpoint and returns data in a JSON object. We can use BCD to request data on OBJKTs and tz addresses. 
 
 #### Rate Limiting 
 
