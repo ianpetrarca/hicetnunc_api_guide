@@ -52,12 +52,14 @@ async function getProfile(user){
         });  
 
         console.log("collection"+balances)
+        //DO SOMETHING WITH THE USER COLLECTION HERE
       });
   }); 
 
   //Get Creations
   getCreations(user,0).then((data) => {
     console.log("creations" + data)
+    //DO SOMETHING WITH THE FIRST 10 USER CREATIONS HERE
   })
 
 }
@@ -72,17 +74,19 @@ async function getObjkts(id){
     });
     Promise.all(queue).then((values) => {
       console.log(values)
+      //DO SOMETHING WITH THE OBJKTS META DATA HERE
     });
   }else{
     queue.push(getTokenInfo(id))
     Promise.all(queue).then((values) => {
       console.log(values)
+       //DO SOMETHING WITH THE OBJKT META DATA HERE
     });
   }
 }
 
 //Fetch Objkt Info in an inputted Array
-getObjkts([36899])
+// getObjkts([36899])
 
 //Get all collections and the last ten creations from a Users Tezos Address
 getProfile('tz1dy6DgvAjeBZpfRE3NoL84BRm4tupyKfFf')
