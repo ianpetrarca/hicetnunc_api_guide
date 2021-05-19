@@ -6,7 +6,13 @@
 # Hicetnunc / Better Call Dev API Guide
 > A guide for using the Better Call Dev API to query and parse hic et nunc data.
 
--ADD better call dev API explainer with endpoints, rate limiting info, etc
+## Better Call Dev
+
+Better Call Dev is a public Tezos block explorer API created by [Baking Bad](https://twitter.com/TezosBakingBad). BCD lets use send REST API messages to its public endpoint and returns data in a JSON object. In order to get data from hic et nunc we can use BCD and parse through the data it returns.
+
+#### Rate Limiting 
+
+One of the things you need to consider when sending REST messages is to not send too many outgoing messages at once. This can cause the REST server to send an error message. At the moment this project does not implement rate-limiting. It's on the [Roadmap](../#roadmap)
 
 ## Node.js Examples
 This folder has a Node.js example that utilize the [Axios](https://www.npmjs.com/package/axios) library for sending REST API messages to the [Better Call Dev](http://better-call.dev/docs) 
