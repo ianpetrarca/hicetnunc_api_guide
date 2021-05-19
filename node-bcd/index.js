@@ -85,8 +85,27 @@ async function getObjkts(id){
   }
 }
 
+// Get all GLTF Models in a Users Collection
+
+// let user = 'tz1dy6DgvAjeBZpfRE3NoL84BRm4tupyKfFf'
+// getUserInfo(user).then((response) => {
+//   let collection = new Array()
+//   for (let index = 0; index < response / 10; index++) {
+//     collection.push(getCollection(user,index*10))
+//   }
+//   Promise.all(collection).then((values) => {
+//     let balances = new Array()
+//     values.flat().forEach(element => {
+//       balances = balances.concat(element.balances)
+//     });  
+//     let models = balances.filter(item => item.formats)
+//     models = models.filter(item => item.formats[0].mimeType.includes('gltf'))
+//   });
+// }); 
+
 //Fetch Objkt Info in an inputted Array
 // getObjkts([36899])
 
 //Get all collections and the last ten creations from a Users Tezos Address
 getProfile('tz1dy6DgvAjeBZpfRE3NoL84BRm4tupyKfFf')
+
