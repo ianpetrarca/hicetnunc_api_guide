@@ -17,7 +17,7 @@
 
 #### Big Picture
 
-Every single OBJKT in hic et nunc has it's metadata and IPFS link publicly available for download via a Tezos blockchain exlplorer API. The goal of this guide is to help developers integrate hic et nunc content into their applications and websites. Use these tools to build the future of distributed creative content.
+Every single OBJKT in hic et nunc has its metadata and IPFS link publicly available for download via a Tezos blockchain explorer API. The goal of this guide is to help developers integrate hic et nunc content into their applications and websites. Use these tools to build the future of distributed creative content.
 #### Table of Contents  
 - [Introduction](#build-websites-and-nodejs-scripts-with-hic-et-nunc-data)  
     - [Code Examples](#code-examples)  
@@ -35,7 +35,7 @@ Every single OBJKT in hic et nunc has it's metadata and IPFS link publicly avail
 1) ~~Release initial Better Call Dev Nodejs examples, Web Metadata Generator and Github Readme~~
 3) Implement rate-limiting to outgoing messages using Bottleneck library
 4) Add TZKT.IO API and compare against Better Call Dev for performance
-5) Create a Node.js CLI for developers to quickly get OBJKT/tZ data
+5) Create a Node.js CLI for developers to quickly get OBJKT/tz data
 6) Convert example code snippets into full NPM library i.e: npm install hen-tools
 
 #### Hic et nunc Resources
@@ -54,9 +54,9 @@ Every single OBJKT in hic et nunc has it's metadata and IPFS link publicly avail
 ### What is Hic Et Nunc?
 
 
-[Hic et nunc](hicetnunc.xyz/) is a decentralized NFT marketplace built on the Tezos blockchain. It enables users to create, sell and interact with Tezos NFT's called OBJKTS. Each OBJKT holds a single artwork containing a 3d model, image, video, html snippet, glsl shader, etc. Hic et nunc lets creators limit how many digital versions of their work are in existence.
+[Hic et nunc](hicetnunc.xyz/) is a decentralized NFT marketplace built on the Tezos blockchain. It enables users to create, sell and interact with Tezos NFTs called OBJKTS. Each OBJKT holds a single artwork containing a 3d model, image, video, html snippet, glsl shader, etc. Hic et nunc lets creators limit how many digital versions of their work are in existence.
 
-When a user uploads their content to hic et nunc, the actual file asset is uploaded to [IPFS](https://ipfs.io/), a decentralized storage network. The other metadata inputed via the minting process is stored in the Tezos blockchain. 
+When a user uploads their content to hic et nunc, the actual file is uploaded to [IPFS](https://ipfs.io/), a decentralized storage network. The other metadata is stored in the Tezos blockchain. 
 
 In order to fully appreciate hic et nunc, a basic knowledge of decentralized systems, cryptocurrency and blockchains is useful:
 
@@ -67,12 +67,11 @@ In order to get metadata on a Tezos Wallet Address or hic et nunc OBJKT ID, you 
 - [Better Call Dev API](https://better-call.dev/)
 - ~~[Tezos Block Explorer](http://tzkt.io/)~~ (coming soon)
 
-To get data from the above APIs we must send a REST GET message to their public API endpoint URLs. This can be done using Node.js and the [Axios](https://www.npmjs.com/package/axios) library. 
+To get data from the above APIs we must send a REST message to their public API endpoint URLs. This can be done using Node.js and the [Axios](https://www.npmjs.com/package/axios) library. 
 
 Here is an example of using Node.js to request an OBJKT's data using Node.js:
 
 Check out more Node.js examples [here](/node-bcd)  
-
 
 ```ruby
 async function getTokenInfo(id){
