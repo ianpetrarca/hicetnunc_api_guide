@@ -48,9 +48,27 @@ Every single OBJKT in hic et nunc has it's metadata and IPFS link publicly avail
 
 When a user uploads their content to hic et nunc, the actual file asset is uploaded to [IPFS](https://ipfs.io/), a decentralized storage network. The other metadata inputed via the minting process is stored in the Tezos blockchain. 
 
-### Other Helpful Terms:
-
 In order to fully appreciate hic et nunc, a basic knowledge of decentralized systems, cryptocurrency and blockchains is useful:
+
+# Tezos API
+
+In order to get metadata on a Tezos Wallet Address or hic et nunc OBJKT ID, you must interact with a Tezos blockchain explorer API. This guide focuses on the two most popular Tezos Blockchain Explorer APIS:
+
+- [Better Call Dev API](https://better-call.dev/)
+- [Tezos Block Explorer](http://tzkt.io/)
+
+To get data from the above APIs we must send a REST GET message to their public API endpoint URLs. This can be done using Node.js and the [Axios](https://www.npmjs.com/package/axios) library. 
+
+# Code Examples
+View more in depth documentation inside of each example's folder:
+ 
+- [Better Call Dev Node.js Examples](/node-bcd)  
+- [Metadata Generator Example](/web)  
+- ~~[TZKT Node.js Examples]~~ (coming soon)
+
+
+# General Information
+
 
 #### Decentralized System
 
@@ -69,22 +87,6 @@ A cryptocurrency is a digital medium to transact value on network not owned by a
 #### NFT
 
 An NFT stands for 'non-fungible-token' and was originally created as one of many smart contract types to use on the Ethereum network. Unlike a currency, an NFT is a receipt that uses a private key to verify your assocation to certain files, items and events that happen on the blockchain. NFTs are collected in wallets, which act as your digital backpack to collect moments and digital blockchain goods. 
-
-# Tezos API
-
-In order to get metadata on a Tezos Wallet Address or hic et nunc OBJKT ID, you must interact with a Tezos blockchain explorer API. This guide focuses on the two most popular Tezos Blockchain Explorer APIS:
-
-- [Better Call Dev API](https://better-call.dev/)
-- [Tezos Block Explorer](http://tzkt.io/)
-
-To get data from the above APIs we must send a REST GET message to their public API endpoint URLs. This can be done using Node.js and the [Axios](https://www.npmjs.com/package/axios) library. 
-
-# Code Examples
-View more in depth documentation inside of each example's folder:
- 
-- [Better Call Dev Node.js Examples](/node-bcd)  
-- [Metadata Generator Example](/web)  
-- ~~[TZKT Node.js Examples]~~ (coming soon)
 
 # Contact
 Created by [@ianpetrarca](https://www.twitter.com/ianpetrarca) - tz1LobSdhfUqYpMojXWHQLJPhFLEzUEd9JAn
