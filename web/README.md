@@ -8,12 +8,6 @@ Metadata Generator (Web Example): [https://hen-metadata.web.app/](https://hen-me
 
 This is a example of the Axios library fetching Objkt Metadata from inside of a web browser, instead of a Node.js script. This example uses Webpack to locally serve your front-end code and also compiles it for static hosting.
 
-```ruby
-cd web
-npm run install
-npm run dev
-```
-
 Install and start the local web server:
 
 ```ruby
