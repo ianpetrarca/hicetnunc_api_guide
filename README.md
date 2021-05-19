@@ -11,7 +11,7 @@
 
 #### Big Picture
 
-Every single OBJKT in hic et nunc has it's metadata and IPFS CDN link publicly available via Tezos blockchain exlplorer APIs. The goal of this guide is to help developers integrate hic et nunc content into their applications and websites. hic et nunc features unique NFT file types like GLTF, GLB, GLSL and HTML.
+Every single OBJKT in hic et nunc has it's metadata and IPFS CDN link publicly available via a Tezos blockchain exlplorer APIs. The goal of this guide is to help developers integrate hic et nunc content into their applications and websites. hic et nunc features unique NFT file types like GLTF, GLB, GLSL and HTML.
 
 #### Table of Contents  
 - [Introduction](#hicetnunc-api-guide)  
