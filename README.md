@@ -11,7 +11,7 @@
 
 #### Big picture
 
-hic et nunc is quickly becoming one of the largest libraries for creative content. Every single OBJKT's metadata is publicly available and it's IPFS CDN link allows you to easily use them in other applications. The Tezos blockchain APIs are the gateway into building rich experiences that utilize this unique new library that features GLTF models, GLSL shaders and other file types not supported on other NFT exchanges.
+Every single OBJKT in hic et nunc has it's metadata and IPFS CDN link publicly available via Tezos blockchain exlplorer APIs. Images, videos, 3D Models and other OBJKT file types can easily be downloaded into your websites and WebXR experiences using the examples shown in this guide.
 
 #### Table of Contents  
 - [Introduction](#hicetnunc-api-guide)  
