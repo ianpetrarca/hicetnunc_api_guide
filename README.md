@@ -8,7 +8,7 @@
 
 #### Code Examples
 
-- Metadata Generator (Web Example): [https://hen-metadata.web.app/](https://hen-metadata.web.app/)
+- [Metadata Generator](https://github.com/ianpetrarca/hicetnunc_api_guide/tree/main/web) (Web Example): [https://hen-metadata.web.app/](https://hen-metadata.web.app/)
     - Fetches OBJKT meta data using a hicetnunc.xyz URL or OBJKT ID
     - Uses Webpack, Axios and Tailwind CSS
 
