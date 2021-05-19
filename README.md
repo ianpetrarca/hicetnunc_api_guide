@@ -22,6 +22,7 @@
 3) Implement rate-limiting to outgoing messages using Bottleneck library
 4) Add TZKT.IO API and compare against Better Call Dev for performance
 5) Create a Node.js CLI for developers to quickly get OBJKT/tZ data
+6) Convert example code snippets into full NPM library i.e: npm install hen-tools
 
 #### Hic et nunc Resources
 - [Hic et nunc Tools](hicetnunc.tools/)
