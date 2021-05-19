@@ -7,8 +7,7 @@ import {getCollection,getCreations,getUserInfo,getTokenInfo} from './api'; //ASY
 let textField = document.getElementById('hen_link_input')
 
 //Get IPFS Button
-let ipfsButton = document.getElementById('get_ipfs_btn');
-ipfsButton.addEventListener("click", validateLink);
+document.getElementById('get_ipfs_btn').addEventListener("click", validateLink);
 
 //Get Meta Data using BCD API with an inputted Objkt ID
 function getMetaData(id) {
